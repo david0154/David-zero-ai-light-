@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="David AI Zero light Logo" width="200"/>
+</p>
+
 # 🤖 David AI – Zero Light
 
 **Model Name:** Zero Light  
