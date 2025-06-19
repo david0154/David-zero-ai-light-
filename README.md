@@ -33,7 +33,7 @@ A lightweight version of David AI built to run on lower-end PCs completely offli
 
 ### 1. Clone This Repo
 ```bash
-git clone https://github.com/david0154/david-zero-light
+git clone https://github.com/david0154/david-zero-light-
 cd david-zero-light
 ```
 
