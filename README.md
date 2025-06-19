@@ -82,6 +82,8 @@ Looking for the full-featured high-performance version of David AI?
 
 ## 📖 License
 
+```
+MIT License
 
 Copyright (c) 2025 David
 
@@ -103,3 +105,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER         
 DEALINGS IN THE SOFTWARE.
 ```
+
