@@ -66,6 +66,19 @@ david-zero-light/
 ├── main.py
 └── README.md
 ```
+## 📦 Full High Version Also Available
+
+Looking for the full-featured high-performance version of David AI?
+
+👉 **[David AI – Zero (High Version)](https://github.com/david0154/David-zero-ai)**
+
+**Features of the Full Version:**
+- Uses 3–4 large pretrained models (Code Llama, StarCoder2, Deepseek, CodeGen)
+- Capable of building full apps like Facebook or Windows software
+- Includes advanced voice + UI system
+- Pretrained offline coding base + Arya framework integration
+- Designed for 16+ GB RAM / 20+ GB VRAM machines
+- Offers highly intelligent task chaining, code cleanup, and design with modern UI
 
 ## 📖 License
 
