@@ -5,7 +5,7 @@
 **Email:** davidk76011@gmail.com  
 **Purpose:** Offline low-resource AI assistant for building websites & desktop software  
 **Optimized for:** 8 GB RAM • 8 GB VRAM • 80 GB Disk  
-**Framework:** Arya (optional)
+**Framework:** [Arya](https://github.com/david0154/Arya)  
 
 ## 🌟 What Is Zero Light?
 
