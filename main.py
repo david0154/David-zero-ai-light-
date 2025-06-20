@@ -43,9 +43,16 @@ def run_cli():
             break
 
 def run_ui():
-    from ui import demo
-    demo.launch()
+    """Run the Gradio UI version of David AI."""
+    try:
+        from ui import demo
+        print("[✅] Launching Gradio UI...")
+        demo.launch()
+    except Exception as e:
+        print(f"❌ Failed to launch UI: {e}")
+        print("💡 Make sure 'ui.py' defines 'demo' and Gradio is installed.")
 
+# ✅ Must come last — after all functions are defined
 if __name__ == "__main__":
     if "--cli" in sys.argv:
         run_cli()
