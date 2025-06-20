@@ -56,6 +56,13 @@ pip install -r requirements.txt
 python main.py
 ```
 
+#🛠️ Installation (if not done yet)
+
+Make sure you install the required Python packages:
+```bash
+pip install gradio openai-whisper
+```
+
 Then type what you want the AI to build:
 ```txt
 Build a login form in HTML and CSS.
