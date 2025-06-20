@@ -36,7 +36,7 @@ with gr.Blocks() as demo:
         txt_btn.click(fn=handle_text, inputs=txt_input, outputs=txt_output)
 
     with gr.Tab("🎙️ Voice Input"):
-        mic_input = gr.Audio(source="microphone", type="filepath", label="Speak here")
+        mic_input = gr.Audio(source="microphone", streaming=False, label="Speak here")
         mic_output = gr.Textbox(label="AI Output", lines=10)
         mic_btn = gr.Button("Generate from Voice")
         mic_btn.click(fn=handle_voice, inputs=mic_input, outputs=mic_output)
