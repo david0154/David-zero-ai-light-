@@ -1,4 +1,7 @@
+# main.py
+
 import os
+import sys
 import time
 from zero_light import ZeroLightAI
 from voice_light import VoiceLight
@@ -13,7 +16,7 @@ def save_output(code):
         f.write(code)
     return filename
 
-def main():
+def run_cli():
     ai = ZeroLightAI()
     speaker = VoiceLight()
 
@@ -39,5 +42,12 @@ def main():
             speaker.speak("Goodbye!")
             break
 
+def run_ui():
+    from ui import demo
+    demo.launch()
+
 if __name__ == "__main__":
-    main()
+    if "--cli" in sys.argv:
+        run_cli()
+    else:
+        run_ui()
