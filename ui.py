@@ -14,10 +14,10 @@ def handle_text(prompt):
     result = ai.generate_code(prompt)
     return result  # Only return text, no voice
 
-# Define simple Gradio UI
+# Define Gradio UI (text-only)
 with gr.Blocks() as demo:
     gr.Markdown("## 🤖 David AI – Zero Light")
-    gr.Markdown("Type your request below and get code output.")
+    gr.Markdown("Type your request below. David AI will respond with code.")
 
     txt_input = gr.Textbox(label="What should I build?")
     txt_output = gr.Textbox(label="AI Output", lines=10)
